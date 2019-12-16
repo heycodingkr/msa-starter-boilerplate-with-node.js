@@ -1,6 +1,6 @@
 
 
-# Sming server stater
+# Sming server starter
 
  this project forked from moleculer framework node.js msa framework. it is modifed for creating service.
 
