@@ -16,9 +16,9 @@
 - `npm run dc:down`: Stop the stack with Docker Compose
 
 
-## install jest as global
+## install jest globally
 
-- `npm install -g jest` intall jest to use jest cmd as global.
+- `npm install -g jest` intall jest to use jest cmd globally.
 
 
 ## references
