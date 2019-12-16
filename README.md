@@ -1,8 +1,13 @@
 
 
-# msa starter boilerplate node.js
+# Sming server stater
 
  this project forked from moleculer framework node.js msa framework. it is modifed for creating service.
+
+
+## Getting started
+- `npm install` : install npm packages
+- `npm run dev` : start dev server
 
 ## NPM scripts
 - `docker-compose up -d nats`: Start nats as transporter (optional, if you setup nats as default transporter when you created a project)
