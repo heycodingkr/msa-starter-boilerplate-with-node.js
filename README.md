@@ -1,6 +1,6 @@
 
 
-# msa starter boilerplate 
+# msa starter boilerplate node.js
 
  this project forked from moleculer framework node.js msa framework. it is modifed for creating service.
 
