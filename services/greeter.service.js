@@ -28,7 +28,10 @@ module.exports = {
 		hello() {
 			return "Hello Moleculer";
 		},
-
+		
+		nice() {
+			return "hello2"
+		},
 		/**
 		 * Welcome a username
 		 *

@@ -16,7 +16,7 @@
     "microservices",
     "moleculer"
   ],
-  "author": "",
+  "author": "jason ahn easycodingkr@gmail.com",
   "devDependencies": {
     "eslint": "^6.1.0",
     "jest": "^24.8.0",
