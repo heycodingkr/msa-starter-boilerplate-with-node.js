@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "moleculer": "^0.13.11",
-    "moleculer-web": "^0.8.5",
+    "moleculer-web": "^0.9.0",
     "nats": "^1.3.2"
   },
   "engines": {
@@ -37,5 +37,10 @@
   },
   "standard": {
     "env": ["jest"]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heycodingkr/msa-starter-boilerplate-with-node.js"
+  },
+  "license": "UNLICENSED"
 }

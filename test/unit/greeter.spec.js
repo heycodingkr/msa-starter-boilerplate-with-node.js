@@ -18,6 +18,12 @@ describe("Test 'greeter' service", () => {
   })
 
   describe("Test 'greeter.welcome' action", () => {
+    it('should started service', () => {
+      expect(broker.started).toBeTruthy()
+    })
+    it("should be defined with 'greeter.welcome'", () => {      
+      expect(broker.call('greeter.welcome', { name: '' })).toBeDefined()
+    })
     it("should return with 'Welcome'", () => {
       expect(broker.call('greeter.welcome', { name: 'Adam' })).resolves.toBe('Welcome, Adam')
     })
