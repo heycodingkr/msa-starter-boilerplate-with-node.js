@@ -12,10 +12,21 @@ module.exports = {
     routes: [
       {
         path: '/api',
+        aliase: {
+          "POST /users/signup": "users.signup",
+        },
         whitelist: [
           // Access to any actions in all services under "/api" URL
           '**'
-        ]
+        ],
+        bodyParsers: {
+          json: {
+            strict: false
+          },
+          urlencoded: {
+            extended: false
+          }
+        }
       }
     ],
 
