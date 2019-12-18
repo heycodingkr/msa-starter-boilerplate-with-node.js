@@ -36,14 +36,14 @@ describe("Test 'users' service", () => {
     })    
     it("should return with token string", async () => {
       const email = 'test1@gmail.com'      
-      removeUserByEmail(email)      
+      await removeUserByEmail(email)      
       expect(broker.call('users.signup', { email: email, password: 'asdf1004' })).resolves.toContain('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9')
     })
 
     it("should reject by client error if an user already registered", async () =>{
       const email = 'tessdft@gmail.com'       
       const user = await broker.call("users.find",{query:{ email: email }})
-      removeUserByEmail(email)
+      await removeUserByEmail(email)
       await expect(broker.call('users.signup', { email: email, password: 'asdf1004' })).resolves.toContain('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9')
       expect(broker.call('users.signup', { email: email, password: 'asdf1004' })).rejects.toBeInstanceOf(MoleculerClientError)
     })

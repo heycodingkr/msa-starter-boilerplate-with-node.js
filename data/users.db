@@ -27,6 +27,7 @@
 {"query":{"email":"tessdft@gmail.com","password":"asdf1004"},"_id":"Ef211NeKrdzRegxi"}
 {"query":{"email":"test32@gmail.com","password":"asdf1002312"},"_id":"EwD6TJz0VBWKKuTU"}
 {"query":{"email":"test1@gmail.com","password":"asdf1004"},"_id":"FdpjKyb4beaeXebs"}
+{"email":"tessdft@gmail.com","password":"asdf1004","_id":"GELVNFfBf0Al4aPl"}
 {"query":{"email":"test1@gmail.com","password":"asdf1004"},"_id":"GFVQfR0VcigykDLm"}
 {"query":{"email":"tessdft@gmail.com","password":"asdf1004"},"_id":"GouyIZOUK0M8gsiW"}
 {"query":{"email":"test32@gmail.com","password":"asdf1002312"},"_id":"GvVQV85dhTJwfRp1"}
@@ -49,6 +50,7 @@
 {"query":{"email":"tessdft@gmail.com","password":"asdf1004"},"_id":"SzrpaYmVJJli8Smd"}
 {"query":{"email":"tessdft@gmail.com","password":"asdf1004"},"_id":"TGmdbg1zgeOue5oD"}
 {"query":{"email":"tessdft@gmail.com","password":"asdf1004"},"_id":"USRUXy7xfT27lxF7"}
+{"email":"test1@gmail.com","password":"asdf1004","_id":"UkaVRJTjdm74fcT2"}
 {"query":{"email":"test32@gmail.com","password":"asdf1002312"},"_id":"WY1XLIx98txhPEn8"}
 {"query":{"email":"tessdft@gmail.com","password":"asdf1004"},"_id":"WxKuspHLP4zIVaL7"}
 {"query":{"email":"test1@gmail.com","password":"asdf1004"},"_id":"XXsHDfBZslkPEXkn"}
@@ -87,12 +89,16 @@
 {"query":{"email":"tessdft@gmail.com","password":"asdf1004"},"_id":"uIjYE6fdhgO06SH4"}
 {"query":{"email":"test32@gmail.com","password":"asdf1002312"},"_id":"wGWK11ksVYbltbZd"}
 {"query":{"email":"test32@gmail.com","password":"asdf1002312"},"_id":"wHmVhZCetQyDXH9S"}
+{"email":"test32@gmail.com","password":"asdf1002312","_id":"wt8PvxHJ9NYah6yz"}
 {"query":{"email":"tessdft@gmail.com","password":"asdf1004"},"_id":"x0luqo7BvwuNqD4t"}
 {"query":{"email":"tessdft@gmail.com","password":"asdf1004"},"_id":"xPAEY4OnyFPK8RXu"}
 {"query":{"email":"tessdft@gmail.com","password":"asdf1004"},"_id":"xXkhcNXoQYlBd83h"}
 {"query":{"email":"test1@gmail.com","password":"asdf1004"},"_id":"xkHvL41PtpNAhxwU"}
 {"query":{"email":"tessdft@gmail.com","password":"asdf1004"},"_id":"z8XFnn6QR643R8ny"}
 {"query":{"email":"test32@gmail.com","password":"asdf1002312"},"_id":"zNVlvZ7Tc2gtFmwl"}
-{"email":"test1@gmail.com","password":"asdf1004","_id":"kDTTQDteYHHZIImg"}
-{"email":"tessdft@gmail.com","password":"asdf1004","_id":"rah1HfKXZe0Rxehr"}
-{"email":"test32@gmail.com","password":"asdf1002312","_id":"b2pN6CW83ahEUFrj"}
+{"$$deleted":true,"_id":"UkaVRJTjdm74fcT2"}
+{"email":"test1@gmail.com","password":"asdf1004","_id":"wzrzBbeIPLlpSKrq"}
+{"$$deleted":true,"_id":"GELVNFfBf0Al4aPl"}
+{"email":"tessdft@gmail.com","password":"asdf1004","_id":"rM1NM900AD7gn0rZ"}
+{"$$deleted":true,"_id":"wt8PvxHJ9NYah6yz"}
+{"email":"test32@gmail.com","password":"asdf1002312","_id":"cLQut68SKsIJj5S6"}
