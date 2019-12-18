@@ -1,8 +1,4 @@
-{"email":"test@gmail.com","password":"asdf1004","_id":"9LN1DWJxZds1mWq4"}
-{"email":"test@gmail.com","password":"asdf1004","_id":"O60xfvViQiMR4W72"}
-{"email":"test@gmail.com","password":"asdf1004","_id":"fiLwC5uZ8S9OLC03"}
-{"email":"test@gmail.com","password":"asdf1004","_id":"fmMDsSu4IPhlsdfF"}
-{"email":"test@gmail.com","password":"asdf1004","_id":"k8ZOkbG4vZltC1YQ"}
-{"email":"test@gmail.com","password":"asdf1004","_id":"orPawutYABEA8RG5"}
-{"email":"test@gmail.com","password":"asdf1004","_id":"sdD9rMQ4S54blQNB"}
-{"email":"test@gmail.com","password":"asdf1004","_id":"Vhe9RBWA8p6NqCZY"}
+{"query":{"email":"test1@gmail.com","password":"asdf1004"},"_id":"Bw8Oa0sdpfObG8bF"}
+{"query":{"email":"test@gmail.com","password":"asdf1004"},"_id":"ptdY9azvTYcg3JXN"}
+{"$$deleted":true,"_id":"Bw8Oa0sdpfObG8bF"}
+{"$$deleted":true,"_id":"ptdY9azvTYcg3JXN"}

@@ -11,6 +11,7 @@
 			"name": "Debug",
 			"program": "${workspaceRoot}/node_modules/moleculer/bin/moleculer-runner.js",
 			"cwd": "${workspaceRoot}",
+			"env": {"MONGO_URI":"mongodb://localhost/testdb"},
 			"args": [
 				"services"
 			]
@@ -22,6 +23,7 @@
 			"program": "${workspaceRoot}/node_modules/jest-cli/bin/jest.js",
 			"args": ["--runInBand"],
 			"cwd": "${workspaceRoot}",
+			"env": {"MONGO_URI":"mongodb://localhost/testdb"},
 			"runtimeArgs": [
                 "--nolazy"
             ]
