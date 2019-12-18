@@ -35,31 +35,30 @@ this project forked from moleculer framework which is node.js msa framework. it 
 
 -   Use "grouping" tokens in front of your branch names.
 
-`group1/foo`
-`group2/foo`
-`group1/bar`
-`group2/bar`
-`group3/bar`
-`group1/baz`
+-   `group1/foo`
+-   `group2/foo`
+-   `group1/bar`
+-   `group2/bar`
+-   `group3/bar`
 
--   The groups can be named whatever you like to match your workflow. I like to use short nouns for mine. Read on for more clarity.
+*   The groups can be named whatever you like to match your workflow. I like to use short nouns for mine. Read on for more clarity.
 
--   Short well-defined tokens
+*   Short well-defined tokens
 
--   Choose short tokens so they do not add too much noise to every one of your branch names. I use these:
+*   Choose short tokens so they do not add too much noise to every one of your branch names. I use these:
 
-`wip Works in progress; stuff I know won't be finished soon`
-`feat Feature I'm adding or expanding`
-`bug Bug fix or experiment`
-`junk Throwaway branch created to experiment`
+*   `wip Works in progress; stuff I know won't be finished soon`
+*   `feat Feature I'm adding or expanding`
+*   `bug Bug fix or experiment`
+*   `junk Throwaway branch created to experiment`
 
--   Each of these tokens can be used to tell you to which part of your workflow each branch belongs.
+*   Each of these tokens can be used to tell you to which part of your workflow each branch belongs.
 
 It sounds like you have multiple branches for different cycles of a change. I do not know what your cycles are, but let's assume they are 'new', 'testing' and 'verified'. You can name your branches with abbreviated versions of these tags, always spelled the same way, to both group them and to remind you which stage you're in.
 
-`new/frabnotz`
-`new/foo`
-`new/bar`
-`test/foo`
-`test/frabnotz`
-`ver/foo`
+-   `new/frabnotz`
+-   `new/foo`
+-   `new/bar`
+-   `test/foo`
+-   `test/frabnotz`
+-   `ver/foo`
