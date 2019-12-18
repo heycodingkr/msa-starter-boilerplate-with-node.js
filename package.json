@@ -27,7 +27,7 @@
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
     "mkdirp": "^0.5.1",
-    "moleculer": "^0.13.11",
+    "moleculer": "^0.13.12",
     "moleculer-db": "^0.8.4",
     "moleculer-db-adapter-mongo": "^0.4.6",
     "moleculer-web": "^0.8.5",
