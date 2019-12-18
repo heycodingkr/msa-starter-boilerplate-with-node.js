@@ -44,15 +44,15 @@ module.exports = {
        handler(ctx) {
          let { email , password} = ctx.params         
          return this.validateEntity({email: email, password: password})
-         .then(async() => {
-          const result = await this.adapter.find({email: email })
+         .then(async() => {           
+          const result = await this.adapter.find({query: { email: email}})          
           if(result.length > 0) {
             throw new MoleculerClientError("cant not create a user", 501, "cant create user bcuz user already signed up", { email: email});
           }
           return result
          })
          .then(async () => {
-           const result = await this.adapter.insert({query: {email: email, password: password}})
+           const result = await this.adapter.insert({email: email, password: password})
            if(result) {
              ctx.meta.$statusCode = 201;
              return this.generatedJWT(result)

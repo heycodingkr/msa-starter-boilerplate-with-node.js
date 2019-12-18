@@ -12,13 +12,13 @@ describe("Test 'users' service", () => {
   beforeAll(() => broker.start())
   afterAll(() => broker.stop())
   const removeUserByEmail = async (email) => {
-    const usersToRemove = await broker.call("users.find",{ email: email })    
-    Promise.all( // https://www.taniarascia.com/promise-all-with-async-await/
-      usersToRemove.map(async user => {
+    const usersToRemove = await broker.call("users.find",{query:{ email: email }})    
+    await Promise.all( // https://www.taniarascia.com/promise-all-with-async-await/
+      usersToRemove.map(async user => {        
         await broker.call("users.remove",{ id:  user._id})
       })
     )    
-    const result = await broker.call("users.find",{ email: email })        
+    //    const result = await broker.call("users.find",{query: { email: email }})    
   }
 
   describe("Test 'user service' is available", () => {
@@ -41,10 +41,11 @@ describe("Test 'users' service", () => {
     })
 
     it("should reject by client error if an user already registered", async () =>{
-      const email = 'test@gmail.com'       
+      const email = 'tessdft@gmail.com'       
+      const user = await broker.call("users.find",{query:{ email: email }})
       removeUserByEmail(email)
       await expect(broker.call('users.signup', { email: email, password: 'asdf1004' })).resolves.toContain('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9')
-      await expect(broker.call('users.signup', { email: email, password: 'asdf1004' })).rejects.toBeInstanceOf(MoleculerClientError)
+      expect(broker.call('users.signup', { email: email, password: 'asdf1004' })).rejects.toBeInstanceOf(MoleculerClientError)
     })
     it("should reject an ValidationError", () => {
       expect(broker.call('users.signup', {})).rejects.toBeInstanceOf(ValidationError)
@@ -65,10 +66,14 @@ describe("Test 'users' service", () => {
     it("should reject an ValidationError", () => {
       expect(broker.call('users.signup', {})).rejects.toBeInstanceOf(ValidationError)
     })       
-    it("should signin returned a token ", () => {
-      // todo signup with email/password
-      // todo signin with email/password
-      // remove user by email.
+    it("should returned a token if it is succeed in login", async () => {
+      const userEntity = {
+        email: 'test32@gmail.com',
+        password: 'asdf1002312'
+      }
+      await removeUserByEmail(userEntity.email)
+      await broker.call('users.signup', { email: userEntity.email, password: userEntity.password })
+      expect(broker.call('users.signin', { email: userEntity.email, password: userEntity.password })).resolves.toContain("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9")
     })
   })
   describe("Test 'JWT generation' method", () => {
