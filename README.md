@@ -48,10 +48,10 @@ this project forked from moleculer framework which is node.js msa framework. it 
 
 -   Choose short tokens so they do not add too much noise to every one of your branch names. I use these:
 
-`wip Works in progress; stuff I know won't be finished soon`
-`feat Feature I'm adding or expanding`
-`bug Bug fix or experiment`
-`junk Throwaway branch created to experiment`
+-   `wip Works in progress; stuff I know won't be finished soon`
+-   `feat Feature I'm adding or expanding`
+-   `bug Bug fix or experiment`
+-   `junk Throwaway branch created to experiment`
 
 -   Each of these tokens can be used to tell you to which part of your workflow each branch belongs.
 
