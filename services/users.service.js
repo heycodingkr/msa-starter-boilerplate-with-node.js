@@ -76,6 +76,11 @@ module.exports = {
    * * Methods
    * */
   methods: {
+
+    /**
+     * make a jwt token by user entity
+     * @param {*} entity user entity
+     */
     generatedJWT: function (entity) {
       const today = new Date();
 			const exp = new Date(today);
