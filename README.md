@@ -26,6 +26,8 @@ this project forked from moleculer framework which is node.js msa framework. it 
 -   `npm install -g jest` intall jest to use jest cmd globally.
 
 ## references
+
 -   [[Moleculer](https://badgen.net/badge/Powered%20by/Moleculer/0e83cd)](https://moleculer.services)
 -   [JEST](https://jestjs.io/)
 -   [Apollo-GraphQL](https://github.com/moleculerjs/moleculer-apollo-server)
+-   [Graphql-tool](https://github.com/apollographql/graphql-tools)
