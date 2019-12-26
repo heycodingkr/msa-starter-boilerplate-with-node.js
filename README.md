@@ -6,6 +6,7 @@ this project forked from moleculer framework which is node.js msa framework. it 
 
 -   `npm install` : install npm packages
 -   `npm run dev` : start dev server
+-   `http://0.0.0.0:3000/graphql`: run graphql playground
 
 ## NPM scripts
 
