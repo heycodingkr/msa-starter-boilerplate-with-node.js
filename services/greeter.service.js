@@ -17,29 +17,24 @@ module.exports = {
    * * Actions
   */
   actions: {
-
-    /**
-   * * Say a 'Hello'
-   * *
-   * * @returns
-   * */
-    hello () {
-      return 'Hello Moleculer'
-    },
-
-    nice () {
-      return 'hello2'
-    },
-
-    /** Welcome a username*
-    * @param {String} name - User name */
-    welcome: {
-      params: {
-        name: 'string'
+    hello: {
+      graphql: {
+          query: "hello: String"
       },
-      handler (ctx) {
-        return `Welcome, ${ctx.params.name}`
+      handler(ctx) {
+          return "Hello Moleculer!"
       }
+    },
+    welcome: {
+        params: {
+            name: "string"
+        },
+        graphql: {
+            mutation: "welcome(name: String!): String"
+        },
+        handler(ctx) {
+            return `Hello ${ctx.params.name}`;
+        }
     }
   },
 

@@ -26,13 +26,15 @@
   },
   "dependencies": {
     "acorn": "^6.4.0",
+    "graphql": "^14.5.8",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
     "mkdirp": "^0.5.1",
     "moleculer": "^0.13.12",
+    "moleculer-apollo-server": "^0.1.3",
     "moleculer-db": "^0.8.4",
     "moleculer-db-adapter-mongo": "^0.4.6",
-    "moleculer-web": "^0.8.5",
+    "moleculer-web": "^0.9.0-beta7",
     "nats": "^1.3.2"
   },
   "engines": {

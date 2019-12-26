@@ -75,11 +75,8 @@ services:
         image: mongo
         volumes:
             - ./db:/data/db
-<<<<<<< HEAD
-=======
         ports:
             - 27017:27017
->>>>>>> f96148261fc17242b3c55bd68725fd27210bcebd
 
 networks:
     internal:
