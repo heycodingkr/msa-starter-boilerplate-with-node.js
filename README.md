@@ -13,7 +13,7 @@ This project forked from moleculer framework which is node.js msa framework. it 
 
 ## Preparing codebase as this the starter
 
--   `git remote add base https://github.com/heycodingkr/msa-starter-boilerplate-with-node.js.git` : add remote repository with this starter code.
+-   `git remote add base https://github.com/heycodingkr/msa-starter-boilerplate-with-node.js.git` : add remote repository with this codebase.
 -   `git pull base master` : pull the code as master in local branch.
 
 ## NPM scripts
