@@ -8,7 +8,7 @@ this project forked from moleculer framework which is node.js msa framework. it 
 -   `npm run dev` : start dev server
 -   `http://0.0.0.0:3000/graphql`: run graphql playground
 
-## Get starter as codebase.
+## Preparing codebase as this the starter
 
 -   `git remote add base https://github.com/heycodingkr/msa-starter-boilerplate-with-node.js.git` : add remote repository with this repo.
 -   `git git pull base master` : pull the code as master in local branch.
