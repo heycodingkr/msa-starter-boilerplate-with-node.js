@@ -1,6 +1,8 @@
 # MSA node.js stater. event-driven architecture based server.
 
-this project forked from moleculer framework which is node.js msa framework. it is modifed for creating service.
+This project forked from moleculer framework which is node.js msa framework. it is modifed for creating service for me.
+
+- Added test code for TDD. 
 
 ## Getting started
 
