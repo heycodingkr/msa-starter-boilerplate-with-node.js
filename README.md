@@ -3,6 +3,7 @@
 This project forked from moleculer framework which is node.js msa framework. it is modifed for creating service for me.
 
 - Added test code for TDD. 
+- Added login/signup for basic pattern of usage.
 
 ## Getting started
 
