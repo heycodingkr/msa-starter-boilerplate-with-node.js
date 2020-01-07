@@ -29,11 +29,11 @@ This project forked from moleculer framework which is node.js msa framework. it 
 -   `npm run dc:up`: Start the stack with Docker Compose
 -   `npm run dc:down`: Stop the stack with Docker Compose
 
-## install jest globally
+## Install jest globally fot TDD
 
 -   `npm install -g jest` intall jest to use jest cmd globally.
 
-## references
+## References
 
 -   [[Moleculer](https://badgen.net/badge/Powered%20by/Moleculer/0e83cd)](https://moleculer.services)
 -   [JEST](https://jestjs.io/)
