@@ -64,7 +64,3 @@ Transporter is a communication bus that services use to exchange messages. It tr
 ## Gateway
 API Gateway exposes Moleculer services to end-users. The gateway is a regular Moleculer service running a (HTTP, WebSockets, etc.) server. It handles the incoming requests, maps them into service calls, and then returns appropriate responses.
 
-## Overall View
-There’s nothing better than an example to see how all these concepts fit together. So let’s consider a hypothetical online store that only lists its products. It doesn’t actually sell anything online.
-
-
