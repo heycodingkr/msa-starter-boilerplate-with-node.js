@@ -2,7 +2,7 @@
 
 This project forked from moleculer framework basic template. this is node.js msa framework and applied event driven architecute. Added several changes by me.
 
-- Added test code for TDD. 
+- Added test sample codes for TDD. 
 - Added login/signup for basic pattern of usage.
 
 ## Getting started
