@@ -28,7 +28,7 @@
     "acorn": "^6.4.0",
     "graphql": "^14.5.8",
     "jsonwebtoken": "^8.5.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mkdirp": "^0.5.1",
     "moleculer": "^0.13.12",
     "moleculer-apollo-server": "^0.1.3",
